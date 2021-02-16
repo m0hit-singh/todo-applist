@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  /* background-image: url('/assets/bg.png'); */
+  height: 90vh;
+}
+
+/* .logoImg {
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: inherit;
+  background-color: coral;
+  height: 550px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+} */
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  background-color: #0071bb;
+  color: #fff;
+  font-family: cursive;
+  height: 40px;
+  align-items: center;
+}
+
+.header a {
+  float: left;
+  color: #fff;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header button:hover {
+  background-color: #ddd;
+  color: black;
+}
+.header button {
+  color: #fff;
+}
+
+.img-life {
+  margin: auto;
+  height: auto;
+  width: 50%;
+  display: block;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #0071bb;
+  color: white;
+  text-align: center;
+  height: 40px;
+  text-align: center;
+}
